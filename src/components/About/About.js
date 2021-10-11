@@ -35,7 +35,7 @@ export default function About() {
 
           <div className='my_resume'>
             <h1>Download My Resume</h1>
-            <a className='resume_box' href='/PonnagantiManikantaResume.docx' download onClick={download}>
+            <a className='resume_box' href='images/PonnagantiManikantaResume.docx' download onClick={download}>
               Resume
               <div className='wrap_icon'>
                 <i className={downloading ?  "fas fa-download download_button" : "fas fa-check-circle downloaded"}>

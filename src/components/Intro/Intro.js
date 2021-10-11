@@ -5,7 +5,7 @@ const Intro = () => {
     return (
         <div className="intro" id="Intro">
             <div className="left">
-                <img src="/my_img.png" alt="mypic"/>
+                <img src="images/my_img.png" alt="mypic"/>
             </div>
             <div className="right">
                 <h1>Hey I'm Ponnaganti Jai Venkata Manikanta</h1>
