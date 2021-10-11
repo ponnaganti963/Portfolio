@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap");
+@import url("https: //fonts.googleapis.com/css2?family=Hahmlet:wght@200;300&display=swap");
+
+.project {
+    background: linear-gradient(45deg,  #8ec8e6,  #277da8,  #074b6e);
+    height: auto;
+    padding-bottom: 20px;
+}
+.project .project_div {
+    padding: 65px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.project .project_div h1 {
+    font-family: 'Lora',  serif;
+    text-shadow: 3px 3px 4px #000;
+    font-size: 3rem;
+    color: #fff;
+}
+.project .project_div .projects_wrapper {
+    max-width: 1160px;
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project .project_div .projects_wrapper .project_wrapper {
+    border: 0.1px solid #0000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #8ec8e6;
+    width: 30%;
+    height: 250px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+.project .project_div .projects_wrapper .project_wrapper .img_wrapper {
+    overflow: hidden;
+    position: relative;
+    height: 60%}
+.project .project_div .projects_wrapper .project_wrapper .img_wrapper img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    transition: transform 0.5s ease-in-out;
+}
+.project .project_div .projects_wrapper .project_wrapper .img_wrapper img:hover {
+    transform: scale(1.1);
+}
+.project .project_div .projects_wrapper .project_wrapper .img_wrapper .link_github {
+    color: #000;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.project .project_div .projects_wrapper .project_wrapper .img_wrapper .link_github i {
+    font-size: 30px;
+}
+.project .project_div .projects_wrapper .project_wrapper .img_wrapper .link_github:hover {
+    color: red;
+}
+.project .project_div .projects_wrapper .project_wrapper .details_wrapper {
+    font-family: 'Hahmlet',  serif;
+    display: flex;
+    height: 25%;
+    border-radius: 0 0 5px 5px;
+    flex-direction: column;
+    box-sizing: content-box;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #bdccff;
+}
+.project .project_div .projects_wrapper .project_wrapper .details_wrapper .project_link {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px auto 10px;
+}
+.project .project_div .projects_wrapper .project_wrapper .details_wrapper .project_link:hover {
+    color: #fcc2c0;
+    background-color: #fc3c35;
+}
+@media screen and (max-width: 900px) {
+    .project .project_div h1 {
+    font-size: 30px;
+    text-shadow: 2.5px 2.5px 4px #000;
+}
+.project .project_div .projects_wrapper {
+    width: 90% !important;
+}
+.project .project_div .projects_wrapper .project_wrapper {
+    height: 250px !important;
+    width: 80% !important;
+}
+}

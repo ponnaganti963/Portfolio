@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400&display=swap");
+
+.topbar{
+    font-family:'Roboto', sans-serif;
+    height:50px;
+    width:100%;
+    display:flex;
+    position:fixed;
+    top:0;
+    z-index:2;
+    align-items:center;
+    padding: 10px 20px;
+    transition: all 0.2s ease-out; 
+}
+.topbar .icon{
+    position:absolute;
+    top:20%;
+    left:20px;
+    font-size:2.5rem;
+    color:black;
+    animation:spin 2s linear infinite
+}
+
+@keyframes spin{
+    50%{
+        transform:rotateZ(180deg)
+    }
+    100%{
+        transform:rotateZ(360deg)
+    }
+}
+
+.topbar .menu-icon{
+    display:none
+}
+
+.topbar .nav_items{
+    display:grid;
+    position:absolute;
+    grid-template-columns:repeat(4, auto);
+    grid-gap:2rem;
+    right:150px;
+    list-style-type:none;
+    width:40vw;
+    justify-content:space-around;
+    text-transform:uppercase;
+}
+
+.topbar .nav_items a{
+    padding:1rem;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    color:#000
+}
+
+.topbar .nav_items .nav_item.changehover:hover {
+    background-color: #818ef0;
+    border-radius: 1rem;
+    transition: background-color 0.8s ease-out;
+}
+.topbar.changebackground {
+    background: linear-gradient(135deg,  #cf171d,  #d43f44,  #3449eb,  #112bf0);
+    border-bottom: 2px solid #544b4b;
+    box-shadow: 0 1px 10px #000000;
+}
+.topbar.changebackground .icon {
+    color: #fff;
+}
+.topbar.changebackground .menu-icon {
+    color: #fff;
+}
+@media screen and (max-width: 900px) {
+    .topbar .nav_items {
+    z-index: 0;
+    position: absolute;
+    width: 100vw;
+    top: 62px;
+    left: 0;
+    transform: translate(-110%,  0);
+    background: linear-gradient(135deg,  #cf171d,  #3449eb,  #112bf0);
+    height: calc(100vh - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.topbar .nav_items.active {
+    text-align: center;
+    transform: translate(0%);
+    transition: all 0.4s ease-out;
+}
+.topbar .nav_item {
+    transform: translateX(-5%);
+    padding: 20px;
+    width: 100vw;
+}
+.topbar .nav_item a {
+    padding-bottom: 20px;
+    width: 30px !important;
+    color: #fff;
+    border-bottom: 1px dashed #fff;
+}
+.topbar .menu-icon {
+    display: block !important;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    transform: translate(10%,  50%);
+}
+}

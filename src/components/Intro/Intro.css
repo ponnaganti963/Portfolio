@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+    .intro {
+    height: calc(100vh - 62px);
+    padding: 62px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url("https://images.unsplash.com/photo-1558470598-a5dda9640f68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro .left {
+    flex: 0.5;
+    text-align: center;
+}
+.intro .left img {
+    object-fit: cover;
+}
+.intro .right {
+    flex: 0.5;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    font-family: 'Acme',  sans-serif;
+    font-size: 2em;
+}
+.intro .right .social_media {
+    margin-top: 20px;
+    font-size: 25px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.intro .right .social_media a {
+    color: #000;
+}
+.intro .right h1 {
+    font-size: 4rem;
+    margin: 30px auto;
+}
+.intro .right .link_next {
+    font-size: 3rem;
+    position: absolute;
+    bottom: -100px;
+    color: #000;
+    left: 50%;
+    transform: translate(-50%);
+    animation: blinkicon 2s infinite;
+}
+@keyframes blinkicon {
+    100% {
+    opacity: 0;
+}
+}@media screen and (max-width: 900px) {
+    .intro {
+    justify-content: center;
+    align-items: center;
+}
+.intro .left {
+    flex: 0;
+    display: none;
+}
+.intro .right {
+    width: 100%;
+    flex: 0.7;
+    font-family: 'Acme',  sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.intro .right .social_media {
+    margin: 10px auto;
+}
+.intro .right .social_media a {
+    padding-right: 10px;
+}
+.intro .right h1 {
+    font-size: 3rem;
+    margin: 40px auto;
+}
+}

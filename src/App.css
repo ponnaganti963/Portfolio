@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  scroll-behavior:smooth
+}
+
+* ::-webkit-scrollbar{
+  display:none
+}
+.App{
+  height:100vh
+}
+
+.App .section{
+  width:100%;
+  position:relative;
+}
+.App .section>*{
+  width:100%
+}

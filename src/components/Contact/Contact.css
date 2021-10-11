@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital, wght@0, 100;0, 300;0, 500;1, 300&display=swap");
+@import url("https: //fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+
+.contact {
+    min-height: calc(100vh - 62px);
+    background: url("fixed_bg.jpeg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+}
+
+.black_wrapper{
+    background: #F4F9F9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+
+.contact > h1 {
+    font: bold 20px cursive;
+    padding-top: 65px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: hsl(359, 92%, 50%);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.contact form .form_wrapper {
+    width: 50%;
+    margin: auto;
+    transform: translateX(5%);
+    text-align: left;
+}
+.contact form .form_wrapper .wrapper {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact form .form_wrapper label {
+    font: bold 20px 'Roboto',  sans-serif;
+}
+.contact form .form_wrapper span {
+    padding: 3px;
+    color: red;
+}
+.contact form .form_wrapper input {
+    height: 50px;
+    box-sizing: border-box;
+}
+.contact form .form_wrapper ::placeholder {
+    color: #000;
+    opacity: 0.5;
+}
+.contact form .form_wrapper .input {
+    color: #000;
+    padding: 10px;
+    width: 70%;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: transparent;
+    filter: blur(0.4px);
+    box-shadow: 1px 1px 1px #000;
+}
+.contact form .form_wrapper .input:focus {
+    outline: none;
+    border: 3px solid #5de8f0;
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: #ebfcfc;
+    transition: all 0.5s ease-out;
+}
+.contact form .form_wrapper button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font: bold 20px/30px 'Roboto',  sans-serif;
+    box-shadow: 2px 1.5px 1px #000;
+    margin-bottom: 65px;
+    background-color: transparent;
+}
+.contact form .form_wrapper button:hover {
+    color: #fff;
+    background: linear-gradient(135deg,  #cf171d,  #d43f44,  #3449eb,  #112bf0);
+    transition: all 0.2s ease-in-out;
+}
+.contact form .success {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    top: 25%}
+.contact form .success .success_modal {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.contact form .success .success_modal .close {
+    position: absolute;
+    border-radius: 100%;
+    font-size: 20px;
+    background-color: #797ce8;
+    top: 20px;
+    right: 20px;
+}
+@media screen and (max-width: 900px) {
+    form .form_wrapper {
+        width: 90% !important;
+        margin: auto;
+    }
+    form .form_wrapper .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    form .form_wrapper .wrapper .input {
+        margin: 10px 0 !important;
+        width: 90% !important;
+    }
+    form .success {
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    form .success .success_modal {
+        width: 100% !important;
+    }
+}
