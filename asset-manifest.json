@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-potfolio/static/css/main.fba48947.chunk.css",
-    "main.js": "/my-potfolio/static/js/main.2597f476.chunk.js",
-    "main.js.map": "/my-potfolio/static/js/main.2597f476.chunk.js.map",
-    "runtime-main.js": "/my-potfolio/static/js/runtime-main.a7147b61.js",
-    "runtime-main.js.map": "/my-potfolio/static/js/runtime-main.a7147b61.js.map",
-    "static/js/2.bcd0f386.chunk.js": "/my-potfolio/static/js/2.bcd0f386.chunk.js",
-    "static/js/2.bcd0f386.chunk.js.map": "/my-potfolio/static/js/2.bcd0f386.chunk.js.map",
-    "static/js/3.1706424d.chunk.js": "/my-potfolio/static/js/3.1706424d.chunk.js",
-    "static/js/3.1706424d.chunk.js.map": "/my-potfolio/static/js/3.1706424d.chunk.js.map",
-    "index.html": "/my-potfolio/index.html",
-    "static/css/main.fba48947.chunk.css.map": "/my-potfolio/static/css/main.fba48947.chunk.css.map",
-    "static/js/2.bcd0f386.chunk.js.LICENSE.txt": "/my-potfolio/static/js/2.bcd0f386.chunk.js.LICENSE.txt",
-    "static/media/Contact.css": "/my-potfolio/static/media/fixed_bg.b6ba7bc4.jpeg"
+    "main.css": "/Portfolio/static/css/main.b727597a.chunk.css",
+    "main.js": "/Portfolio/static/js/main.2597f476.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2597f476.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.8ba36d85.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.8ba36d85.js.map",
+    "static/js/2.bcd0f386.chunk.js": "/Portfolio/static/js/2.bcd0f386.chunk.js",
+    "static/js/2.bcd0f386.chunk.js.map": "/Portfolio/static/js/2.bcd0f386.chunk.js.map",
+    "static/js/3.1706424d.chunk.js": "/Portfolio/static/js/3.1706424d.chunk.js",
+    "static/js/3.1706424d.chunk.js.map": "/Portfolio/static/js/3.1706424d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.b727597a.chunk.css.map": "/Portfolio/static/css/main.b727597a.chunk.css.map",
+    "static/js/2.bcd0f386.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.bcd0f386.chunk.js.LICENSE.txt",
+    "static/media/Contact.css": "/Portfolio/static/media/fixed_bg.b6ba7bc4.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7147b61.js",
+    "static/js/runtime-main.8ba36d85.js",
     "static/js/2.bcd0f386.chunk.js",
-    "static/css/main.fba48947.chunk.css",
+    "static/css/main.b727597a.chunk.css",
     "static/js/main.2597f476.chunk.js"
   ]
 }
