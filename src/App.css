@@ -1,6 +1,12 @@
 *{
   margin:0;
-  scroll-behavior:smooth
+  scroll-behavior: smooth;
+  transition: scroll 500ms ease-in-out;
+}
+
+html{
+  scroll-behavior: smooth;
+  transition: all 5s linear;
 }
 
 * ::-webkit-scrollbar{

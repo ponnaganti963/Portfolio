@@ -13,7 +13,7 @@ export default function Projects() {
                         <div className='project_wrapper' key={index}>
                             <div className='img_wrapper'>
                                 <img src= {projects.img} alt={projects.name}/>
-                                <a className='link_github' href={projects.github} rel='noreferrer' target='_blank' >
+                                <a className='link_github' href={ projects.github} rel='noreferrer' target='_blank' >
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
